@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
-for ch in range(97, 123):
+for char in range(26):
 
-    if ch != 101 and ch != 113:
+    if ch != 4 and ch != 16:
 
-        print("{:c}".format(ch), end='')
+        print("{:s}".format(ch), end='')
